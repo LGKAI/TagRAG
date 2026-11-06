@@ -1,0 +1,17 @@
+# LLM APIs & Integration
+openai>=1.30.0
+google-genai>=0.1.0
+langchain>=0.2.0
+
+# Graph & Network (Xây dựng DAG cho TagRAG)
+networkx>=3.2.0
+
+# Vector Embeddings & Database
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+
+# Tiện ích chung
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+tqdm>=4.66.0
+

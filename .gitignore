@@ -1,0 +1,26 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Môi trường ảo (Virtual environments)
+venv/
+.venv/
+env/
+
+# File cấu hình môi trường chứa API Key (Bảo mật - KHÔNG commit)
+.env
+.env.local
+
+# Dữ liệu lớn & Cơ sở dữ liệu vector sinh ra khi chạy
+data/*
+!data/.gitkeep
+chroma_db/
+*.db
+*.sqlite3
+
+# Cấu hình IDE & Jupyter Notebook
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
